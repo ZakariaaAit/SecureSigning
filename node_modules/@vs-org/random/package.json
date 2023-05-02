@@ -1,0 +1,45 @@
+{
+  "name": "@vs-org/random",
+  "version": "0.0.6",
+  "description": "This is simple random string generator utility",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "rm -rf lib/ && tsc",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:vaibhav-sarwade-404/vs-random.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vaibhav-sarwade-404/vs-random/issues"
+  },
+  "homepage": "https://github.com/vaibhav-sarwade-404/vs-random#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "Vaibhav Sarwade",
+  "keywords": [
+    "Random generator",
+    "Random string generator",
+    "string generator",
+    "vs-random",
+    "vs random string generator"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^28.1.8",
+    "@types/node": "^18.7.13",
+    "jest": "^29.0.1",
+    "test-jest": "^1.0.1",
+    "ts-jest": "^28.0.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  }
+}

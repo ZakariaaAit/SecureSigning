@@ -1,0 +1,21 @@
+{
+  "name": "signature",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@vs-org/authenticator": "^0.0.8",
+    "cookie-parser": "~1.4.4",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "~1.9.1",
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.22",
+    "twilio": "^4.10.0"
+  }
+}
